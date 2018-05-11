@@ -1,0 +1,13 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+       server:
+          git:
+             uri: https://github.com/trisonTestGit/config-repo.git
+             search-paths: cloud-config
+             username: trisonTestGit
+             password: an520droid

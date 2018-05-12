@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by LUSHUQIN443 on 2018/5/11.
+ * Created by trison on 2018/5/11.
  */
 @RestController
 public class ConfigClientController {
